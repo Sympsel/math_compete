@@ -1,0 +1,280 @@
+/__pycache__/
+/.vscode/
+
+# ============================================
+# Python 相关
+# ============================================
+
+# Python 字节码缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
+*.py[cod]
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+pyenv/
+.python-version
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+*.cover
+*.log
+
+# ============================================
+# Jupyter Notebook 相关
+# ============================================
+
+# Notebook 检查点
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 导出的 HTML
+*.html
+
+# ============================================
+# IDE 和编辑器相关
+# ============================================
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/runConfigurations/
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+
+# VSCode
+.vscode/
+*.code-workspace
+*.code-snippets
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Notepad++
+*.bak
+
+# ============================================
+# MATLAB 相关
+# ============================================
+
+# MATLAB 临时文件
+*.asv
+*.mat
+*.fig
+*.mlx
+*.mx
+
+# Simulink
+*.slx
+*.mdl
+*.sldd
+
+# 编译文件
+*.mex*
+*.mexw64
+*.mexw32
+*.mexmaci64
+*.mexa64
+
+# ============================================
+# Sphinx 文档生成
+# ============================================
+
+# 文档构建输出
+build/
+_build/
+doctrees/
+html/
+latex/
+man/
+texinfo/
+*/.buildinfo
+
+# Sphinx 静态文件
+_static/
+_templates/
+*.doctree
+
+# ============================================
+# 大型二进制文件
+# ============================================
+
+# 视频文件（教学视频）
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+
+# 大型 PDF 文件（通常超过 10MB）
+*.pdf
+*.PDF
+
+# 图片文件（如果是代码生成的可选忽略）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+
+# ============================================
+# 数据和输出文件
+# ============================================
+
+# 数据和输出目录
+data/
+output/
+result/
+results/
+out/
+dist/
+*.out
+
+# CSV 数据文件（如果是生成的大型文件）
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# 模型文件
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.pb
+*.onnx
+
+# 日志文件
+*.log
+*.err
+*.out
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================
+# 操作系统相关
+# ============================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+*.~
+
+# ============================================
+# 项目特定（根据您的结构）
+# ============================================
+
+# 本次展示的特定输出
+**/result/
+**/output/
+**/__pycache__/
+
+# ============================================
+# 环境配置文件
+# ============================================
+
+.env
+.env.*
+*.env
+*.secret
+config.ini
+
+# ============================================
+# 依赖文件
+# ============================================
+
+# Python 依赖
+pip-log.txt
+pip-delete-this-directory.txt
+.python-version
+
+# ============================================
+# 模型和检查点
+# ============================================
+
+*.ckpt
+*.pb
+*.meta
+*.index
+*.data-00000-of-00001
+*.hdf5
+
+# ============================================
+# 其他
+# ============================================
+
+# 虚拟环境配置文件
+py36.txt
+
+# 临时 Excel 文件
+~$*.xlsx
+~$*.xlsm
+
+# 备份文件
+*.bak
+*.backup
+*.old
