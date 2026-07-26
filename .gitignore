@@ -144,7 +144,6 @@ _templates/
 # 图片文件（如果是代码生成的可选忽略）
 *.jpg
 *.jpeg
-*.png
 *.gif
 *.bmp
 *.tiff
@@ -166,7 +165,6 @@ _templates/
 
 # 数据和输出目录
 data/
-output/
 result/
 results/
 out/
@@ -230,7 +228,6 @@ $RECYCLE.BIN/
 
 # 本次展示的特定输出
 **/result/
-**/output/
 **/__pycache__/
 
 # ============================================
