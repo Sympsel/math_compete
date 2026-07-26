@@ -278,3 +278,8 @@ py36.txt
 *.bak
 *.backup
 *.old
+
+# 字体文件
+*.TTC
+
+!first/output/

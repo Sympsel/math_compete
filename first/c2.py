@@ -1,16 +1,18 @@
-from 第一次模拟.utils import *
+from utils import *
 
-print_sheet_names('C_2.xlsm')
+C_2 = 'first/C_2.xlsm'
+
+print_sheet_names(C_2)
 
 df1 = read_excel(
-    'C_2.xlsm', 
+    C_2, 
     sheet_name='Sheet1 (2)',
     header=3,
     usecols='A:C'
 )
 
 df2 = read_excel(
-    'C_2.xlsm', 
+    C_2, 
     sheet_name='Sheet1 (2)',
     header=3,
     usecols='D:F'
