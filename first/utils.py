@@ -40,7 +40,7 @@ def print_df_info(df, df_name):
     print(f"总列数：{len(df.columns)}")
     print(f"\n所有数据：")
     print(df)
-    print(typename(df))
+    print(f"数据类型：{typename(df)}")
 
 def typename(tp):
     return type(tp).__name__
@@ -69,3 +69,6 @@ def 计算HC里程排放量(HC百分含量):
     HC里程排放量: g/mile
     '''
     return 63.3 * HC百分含量 + 1.7
+
+def ft_to_mile(ft):
+    return ft / 5280
